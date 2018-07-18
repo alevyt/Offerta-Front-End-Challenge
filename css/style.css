@@ -1,0 +1,14 @@
+.container {
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.output-text {
+    height: 50px;
+    min-width: 20%;
+    border: 1px solid #000;
+    white-space: nowrap;
+    font-size: 50px;
+    width: 0;
+}
