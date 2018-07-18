@@ -12,13 +12,18 @@
         Test task!
     </h2>
     <div class="container">
-        <label>Input</label>
         <textarea id="inputText" name="inputText"></textarea>
     </div>
 
     <div class="container">
+        <input type="range" name="rangeInput" min="20" max="100" value=0>
+        <label for="rangeInput" class="range-input"></label>
+    </div>
+
+
+    <div class="container">
         <label>Output</label>
-        <input type="text" class="output-text">
+        <div class="output-text" disabled></div>
     </div>
 
     <script src="./script/script.js"></script>
